@@ -12,6 +12,7 @@ public class GMain {
 		
         win.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         win.setSize(GConstants.FrameWidth, GConstants.FrameHight);
+        win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         win.setVisible(true);
 	    win.setResizable(false);
 	}
